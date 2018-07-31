@@ -98,6 +98,9 @@ a{
   float: left;
   margin-left: 52px;
 }
+.box h2 {
+  border-bottom: #090909 solid 5px;
+}
 
 .box:first-child{
   margin-left: 0;
@@ -106,14 +109,55 @@ a{
 /****************
       Portfolio
 *****************/
+#portfolio {
+  height: 235px;  
+  border-top: gray 1px solid; 
+
+}
+#portfolio img{
+  height: 135px;
+  width: 215px;
+  margin-left: 12px;
+
+}
 
 /****************
       Info
 *****************/
+#info {
+  height: 235px;
+  width: 100%;
+  position: relative;
+}
+.left{
+  width: 70%;
+  position: absolute;
+}
+.Connect {
+  margin-left: 80%;
+  position: absolute;
+  float: right;
+}
 
 /****************
       Footer
 *****************/
+#footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #c7c3c3;
+  height: 100px;
+  color: #999898;
+}
+#footer p{
+  padding: 10px;
+}
 #footer img {
+  margin-top: -25px;
+  transform: translateX(-35px);
+  float: right;
+  width: 130px;
+  height: 67px;
   
 }
