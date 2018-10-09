@@ -1,9 +1,20 @@
 /****************
       Header
 *****************/
+.container1{
+    
+    width: 100%;
+    border-top: 17px solid #090909;
+}
 #header {
-    position: relative;
-    margin-top: 20px; 
+    
+    position: fixed;
+    top:0;
+    background: white;
+    margin: 0 auto;
+    margin-top: 21px;
+    width: 960px;
+
 }
   
 .logo {

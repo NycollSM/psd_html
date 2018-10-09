@@ -1,13 +1,12 @@
 /****************
       General
 *****************/
-#container {
+.container {
   width: 960px;
   margin: 0 auto; }
 
 body {
   margin: 0;
-  border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif; }
 
 a {
@@ -29,9 +28,17 @@ a {
 /****************
       Header
 *****************/
+.container1 {
+  width: 100%;
+  border-top: 17px solid #090909; }
+
 #header {
-  position: relative;
-  margin-top: 20px; }
+  position: fixed;
+  top: 0;
+  background: white;
+  margin: 0 auto;
+  margin-top: 21px;
+  width: 960px; }
 
 .logo {
   float: left; }
