@@ -3,18 +3,21 @@
   *****************/
   #footer {
     width: 100%;
-    margin: 0;
-    padding: 0;
+   position: absolute;
     background: #c7c3c3;
     height: 100px;
     color: #999898;
+    align-items: center;
   }
   #footer p{
+    float: left;
+    position: relative;
     padding: 10px;
   }
   #footer img {
-    margin-top: -25px;
-    transform: translateX(-35px);
+  
+    position: relative;
+    margin-top: 20px;
     float: right;
     width: 130px;
     height: 67px;

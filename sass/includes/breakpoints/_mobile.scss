@@ -1,0 +1,48 @@
+@media (max-width: 400px){
+    //header
+    .menu{
+        display: none;
+    }
+    //portfolio
+    #portfolio{
+       height: 350px;
+    }
+    #portfolio img{
+        width: 47%;
+        margin-left: 2px;
+        margin-top: 5px;
+
+    }
+    //info
+    #info{
+       
+        
+    }
+    .left{
+        font-size: 14px;
+        width: 50%;
+    }
+    .Connect{
+        margin-left: 50%;
+        width: 100%;
+    }
+    //footer
+    #footer{
+        text-align: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+    #footer p {
+        font-size: 14px;
+        width: 100%;
+        padding: 3px;
+    }
+    #footer img{
+        
+        width: auto;
+        float: none;
+        margin-top: 5px;
+    }
+
+
+}
