@@ -1,0 +1,15 @@
+@media (max-width: 769px){
+    .logo{
+        max-width: 50%;
+    }
+    .correo{
+        display: none;
+    }
+    .menu{
+        margin:0;
+    }
+    .menu li + li {
+        margin-left: 40px;
+    }
+
+}

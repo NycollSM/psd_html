@@ -2,15 +2,15 @@
       General
 *****************/
 .container {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto; 
    
   }
   
   body {
-    margin: 0;
-    
-    font-family: Arial, Helvetica, sans-serif; }
+    border-top: 17px black solid;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
   
   a {
     text-decoration: none; 

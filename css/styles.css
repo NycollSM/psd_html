@@ -2,11 +2,11 @@
       General
 *****************/
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 body {
-  margin: 0;
+  border-top: 17px black solid;
   font-family: Arial, Helvetica, sans-serif; }
 
 a {
@@ -29,40 +29,34 @@ a {
       Header
 *****************/
 .container1 {
-  width: 100%;
   border-top: 17px solid #090909; }
 
 #header {
-  position: fixed;
-  top: 0;
   background: white;
   margin: 0 auto;
-  margin-top: 21px;
-  width: 960px; }
+  margin-top: 21px; }
 
 .logo {
+  max-width: 100%;
   float: left; }
 
 .correo {
+  margin-top: 40px;
+  margin-right: 25%;
   color: #999898;
   font-size: 13px;
-  position: absolute;
   top: 18px;
-  right: 0; }
+  right: 0;
+  position: absolute; }
 
 .menu {
   float: right;
   list-style: none;
-  margin: 46px 0 0;
-  padding: 0; }
+  margin: 46px 0 0; }
 
 .menu li {
-  display: inline;
-  /* margin-left: 65px; */ }
+  display: inline; }
 
-/* .menu li:first-child{
-  margin-left: 0;
-} */
 .menu li + li {
   margin-left: 65px; }
 
@@ -139,5 +133,24 @@ a {
   float: right;
   width: 130px;
   height: 67px; }
+
+#slider {
+  margin-top: 15px; }
+
+#slider img {
+  max-width: 100%; }
+
+@media (max-width: 769px) {
+  .logo {
+    max-width: 50%; }
+
+  .correo {
+    display: none; }
+
+  .menu {
+    margin: 0; }
+
+  .menu li + li {
+    margin-left: 40px; } }
 
 /*# sourceMappingURL=styles.css.map */
