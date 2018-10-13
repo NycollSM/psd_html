@@ -74,9 +74,9 @@ a {
       Content
 *****************/
 .box {
-  width: 33.3%;
+  width: 30%;
   float: left;
-  margin-left: 52px; }
+  margin: 10px; }
 
 .box h2 {
   border-bottom: #090909 solid 5px; }
