@@ -74,7 +74,7 @@ a {
       Content
 *****************/
 .box {
-  width: 285px;
+  width: 33.3%;
   float: left;
   margin-left: 52px; }
 
@@ -93,7 +93,7 @@ a {
 
 #portfolio img {
   height: 135px;
-  width: 215px;
+  width: 25%;
   margin-left: 12px; }
 
 /****************
@@ -141,6 +141,7 @@ a {
   max-width: 100%; }
 
 @media (max-width: 769px) {
+  /*header*/
   .logo {
     max-width: 50%; }
 
@@ -151,6 +152,18 @@ a {
     margin: 0; }
 
   .menu li + li {
-    margin-left: 40px; } }
+    margin-left: 40px; }
+
+  /*content*/
+  .box {
+    width: auto;
+    margin: auto;
+    float: none; }
+
+  /*Portfolio*/
+  #portfolio img {
+    width: 24%;
+    margin-left: 0;
+    height: 130px; } }
 
 /*# sourceMappingURL=styles.css.map */
